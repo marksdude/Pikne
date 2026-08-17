@@ -11,3 +11,4 @@ None of the PCBs have been fully tested so I can't guarantee that they will func
 # Modules
 - LED controller - Allows you to control 5V LEDs with Home Assistant
 - LiPo charger - Allows you to charge up to 4S LiPos from your power bank
+- Flashlight - A flashlight for your power bank
