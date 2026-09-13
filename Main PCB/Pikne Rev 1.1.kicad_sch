@@ -9552,6 +9552,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 33.02) (xy 375.92 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5905fe1-20d5-4ebe-b432-2a902b94c0fa")
+	)
+	(wire
+		(pts
 			(xy 347.98 31.75) (xy 347.98 34.29)
 		)
 		(stroke
@@ -9959,6 +9969,16 @@
 			(justify left bottom)
 		)
 		(uuid "526d6938-079f-4f18-8cc0-bf7961900d1f")
+	)
+	(label "alert"
+		(at 375.92 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53cf8d7c-9d15-4bb2-9c2c-25ae8aee7501")
 	)
 	(label "SDRV"
 		(at 137.16 85.09 0)
@@ -11376,6 +11396,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 375.92 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05860197-a8cc-4095-a68a-b3f5a520a5c1")
+		(property "Reference" "#PWR073"
+			(at 375.92 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 375.92 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 375.92 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a033f67-6c28-4983-8f0c-132e8ab92f05")
+		)
+		(instances
+			(project "Pikne Rev 1.1"
+				(path "/0a0d1d9c-f6cd-4de5-98f3-3ca6235ec442"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 293.37 46.99 0)
 		(unit 1)
@@ -12137,7 +12235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 156.5148 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17875,6 +17973,87 @@
 			(project "Pikne Rev 1.1"
 				(path "/0a0d1d9c-f6cd-4de5-98f3-3ca6235ec442"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 375.92 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6069e0c7-6f76-415c-b1ff-eb403cc9f1fd")
+		(property "Reference" "R26"
+			(at 374.142 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 374.142 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 374.142 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 375.92 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0787d64-2e24-4475-a58d-122eabcf25dd")
+		)
+		(pin "2"
+			(uuid "5c03ca18-7cf6-4a62-8c4a-5ab7c8c490bc")
+		)
+		(instances
+			(project "Pikne Rev 1.1"
+				(path "/0a0d1d9c-f6cd-4de5-98f3-3ca6235ec442"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -28241,7 +28420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SPM6550:SPM6550"
+		(property "Footprint" "Inductor:7443845030010"
 			(at 259.842 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
