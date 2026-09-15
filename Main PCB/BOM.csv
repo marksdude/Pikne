@@ -52,7 +52,7 @@ Id;Designator;Footprint;Quantity;Designation;Price (total) (EUR);Link;Part numbe
 51;R31;R_0603_1608Metric;1;1.96k;0,09;https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT1K96?qs=sGAEpiMZZMtlubZbdhIBIFtUjlT065uiDL8TCQtYGOQ%3D;RMCF0603FT1K96 
 52;R33;R_0603_1608Metric;1;10 Ohm;0,08;https://www.mouser.ee/en/ProductDetail/Walsin/WR06X100-JTL?qs=sGAEpiMZZMtlubZbdhIBIO6gLQ25xNI8D0%252BqC6ceCKo%3D;WR06X100 JTL 
 53;SW1, SW2;SW_SPST_B3U-1000P;2;SW_Push;1,87;https://www.mouser.ee/en/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D;B3U-1000P 
-54;TH1;ntc;1;NTC 10K;0,58;https://www.mouser.ee/en/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D;103AT-2 
+54;;;;;;;
 55;TP1;TestPoint_Pad_D1.0mm;1;;;;
 56;TP2;TestPoint_Pad_D1.0mm;1;;;;
 57;TP3;TestPoint_Pad_D1.0mm;1;;;;
@@ -67,5 +67,5 @@ Id;Designator;Footprint;Quantity;Designation;Price (total) (EUR);Link;Part numbe
 66;U7;SOT-23-5;1;TLV75533PDBV;0,38;https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TLV75533PDBVR?qs=55YtniHzbhAKEwqeO2xJXQ%3D%3D;TLV75533PDBVR 
 67;U8;SOIC-8_3.9x4.9mm_P1.27mm;1;CAT24C256;0,63;https://www.mouser.ee/en/ProductDetail/onsemi/CAT24C256WI-GT3?qs=rZgeL6XvLwaEqwp5Dppodg%3D%3D;CAT24C256WI-GT3 
 68;U9;VQFN10_RPW_TEX;1;TPS259461ARPW;1,27;https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPS259461ARPWR?qs=Wj%2FVkw3K%252BMCqhfGg0sy75g%3D%3D;TPS259461ARPWR 
-;;;;Total (EUR);35,07;;
-;;;;Total (USD);40,69;;
+;;;;Total (EUR);34,49;;
+;;;;Total (USD);39,81;;
