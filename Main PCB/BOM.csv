@@ -1,71 +1,71 @@
-Id;Designator;Footprint;Quantity;Designation;Price (total) (EUR);Link;Part number
-1;C1, C13, C14, C16, C21, C23, C25, C33, C41, C46, C48, C40;C_0402_1005Metric;12;0.1uf;0,18;https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM155R62A104ME14D?qs=IPQhFcwEUOgMaa1bf1Gh1w%3D%3D;GRM155R62A104ME14D 
-2;C2;C_0402_1005Metric;1;1nf;0,1;https://www.mouser.ee/en/ProductDetail/Walsin/0402B102M500CT?qs=ZrPdAQfJ6DMOvVoHhNQARQ%3D%3D;0402B102M500CT
-3;C3, C4;C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;2;330pf;0,16;https://www.mouser.ee/en/ProductDetail/Samsung-Electro-Mechanics/CL05C331JB5NNNC?qs=sGAEpiMZZMsh%252B1woXyUXjxqcB7t9naYpkQ4Rr8BTsps%3D;CL05C331JB5NNNC 
-4;C5, C8, C27, C43;C_0402_1005Metric;4;10nf;0,14;https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRT155R71E103KE01J?qs=sGAEpiMZZMsh%252B1woXyUXj1odAWdFQpiLMYy5fGdvsO4%3D;GRT155R71E103KE01J 
-5;C6, C20;C_0402_1005Metric;2;4.7uf;0,4;https://www.mouser.ee/en/ProductDetail/KYOCERA-AVX/KGM05CR51C475MH?qs=Jm2GQyTW%2Fbi2to8BOB9y6A%3D%3D;KGM05CR51C475MH 
-6;C9;C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;1;2.2nf;0,1;https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM155R71H222KA01D?qs=sT7emLDNC7VMoN5Pn9EW7g%3D%3D;GRM155R71H222KA01D 
-7;C10, C35;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;2;10uf;0,21;https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM188R61A106ME69D?qs=sGAEpiMZZMsh%252B1woXyUXj3PHQNQk05LLWAGWbscZ9EM%3D;GRM188R61A106ME69D 
-8;C11, C12, C42;C_0805_2012Metric;3;10uf;1,21;https://www.mouser.ee/en/ProductDetail/TDK/C2012X5R1V106K085AC?qs=6JAMGB%252BEdky%252BlYMcTLhFyA%3D%3D;C2012X5R1V106K085AC 
-9;C15, C17, C18, C19, C22, C24, C26, C29, C30, C37, C36;C_0603_1608Metric;11;10uf;0,97;https://www.mouser.ee/en/ProductDetail/KYOCERA-AVX/0603YD106KAT2A?qs=sGAEpiMZZMsh%252B1woXyUXjzY5digEXfcQWG7dCtg%2FVQs%3D;0603YD106KAT2A 
-10;C31, C32;C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;2;0.047uf;0,14;https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM155R71H473ME14J?qs=d0WKAl%252BL4KZj2STEhmVxVg%3D%3D;GRM155R71H473ME14J 
-11;;;;;;;
-12;C38, C39;C_0805_2012Metric;2;22uf;1,1;https://www.mouser.ee/en/ProductDetail/TAIYO-YUDEN/MSAST21GBB5226MTNC12?qs=tlsG%2FOw5FFifOAmFpx5Mxw%3D%3D;MSAST21GBB5226MTNC12
-13;C40;;;;;;
-14;C44;C_0402_1005Metric;1;1100pf;0,13;https://www.mouser.ee/en/ProductDetail/KEMET/C0402C112J4HACAUTO?qs=j%252B1pi9TdxUbzRsbRCfs5CQ%3D%3D;C0402C112J4HACAUTO
-15;C45;C_0603_1608Metric;1;4.7uf;0,27;https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM188R6YA475ME15D?qs=eeBpzGFlv%252B8dp6uI9Q0%2FMQ%3D%3D;GRM188R6YA475ME15D
-16;C47;C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;1;22pf;0,11;https://www.mouser.ee/en/ProductDetail/Walsin/0402N220K500CT?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyVAOtE%252BTtGqKE%3D;0402N220K500CT
-17;C49;CP_Radial_D5.0mm_P2.50mm;1;100uf;;;
-18;C50, C51;C_1210_3225Metric_Pad1.33x2.70mm_HandSolder;2;47uf;1,15;https://www.mouser.ee/en/ProductDetail/Samsung-Electro-Mechanics/CL32A476MOJNNNE?qs=sGAEpiMZZMsh%252B1woXyUXj3ImGdBpR7cBWQ3FoDeyW%2Fk%3D;CL32A476MOJNNNE
-19;D1;D_SOD-323_HandSoldering;1;;0,23;https://www.mouser.ee/en/ProductDetail/Taiwan-Semiconductor/BAT42WSH-RRG?qs=jcD%2FCkGBYeNbLXauDmsPEg%3D%3D;BAT42WSH RRG 
-20;D2;D_SMC;1;;0,95;https://www.mouser.ee/en/ProductDetail/Comchip-Technology/CDBC540-G?qs=tw%252BuQ%2FB6PO2ExpPYY64Vzw%3D%3D;CDBC540-G 
-21;D3;LED_0603_1608Metric;1;LED blue;0,15;https://www.mouser.ee/en/ProductDetail/Wurth-Elektronik/150060BS75000?qs=sGAEpiMZZMvVL5Kk7ZYykXREfLAAjjkQe66GuagBP8yFlWzxEZ2GLA%3D%3D;150060BS75000 
-22;J1;USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal;1;USB_C_Receptacle_PowerOnly_6P;0,53;https://www.mouser.ee/ProductDetail/GCT/USB4125-GF-A?qs=KUoIvG%2F9IlaIQ4zBJ6gLeA%3D%3D;USB4125-GF-A 
-23;J2;JST_VH_S4P-VH_1x04_P3.96mm_Horizontal;1;JST VH S4P;0,26;https://www.mouser.ee/en/ProductDetail/JST-Commercial/S4P-VHLFSN?qs=QpmGXVUTftGoUBD%252BPjD3%2FQ%3D%3D;S4P-VH(LF)(SN) 
-24;J3, J4;JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical;2;JST ZH B3B;0,41;https://www.mouser.ee/en/ProductDetail/JST-Commercial/B3B-ZR-3.4LFSN?qs=cdbOS8ANM9A4HB4OVixO0g%3D%3D;B3B-ZR-3.4(LF)(SN) 
-25;;;;;;;
-26;J6;JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical;1;JST ZH B6B;0,28;https://www.mouser.ee/en/ProductDetail/JST-Commercial/B6B-ZR-3.4LFSN?qs=QpmGXVUTftFTUFNLJp%252BAEQ%3D%3D;B6B-ZR-3.4(LF)(SN) 
-27;L1;L_Bourns_SRP1038C_10.0x10.0mm;1;4.7uh;0,74;https://www.mouser.ee/en/ProductDetail/Bourns/SRP1038CC-4R7M?qs=1Kr7Jg1SGW%252BCPc6wLQ2Y6w%3D%3D;SRP1038CC-4R7M 
-28;L3;7443845030010;1;1uH;1,89;https://www.mouser.ee/en/ProductDetail/Wurth-Elektronik/7443845030010?qs=a2MtRaTmNOQ4VejTFaA8vA%3D%3D;7443845030010
-29;R1, R2, R26;R_0603_1608Metric;3;4.7k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/AC0603JR-074K7L?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5AqFOkmoxORGA%3D;AC0603JR-074K7L 
-30;R3, R18, R4, R8, R9, R32;R_0603_1608Metric;6;10k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/RT0603FRE1310KL?qs=sGAEpiMZZMtlubZbdhIBIE441mth93wmotyGspRJebc%3D;RT0603FRE1310KL 
-31;;;;;;;
-32;R5, R6, R10, R11, R23;R_0402_1005Metric;5;10k;0,08;https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402FR-0710KL?qs=sGAEpiMZZMtlubZbdhIBIPp9I5DmXL4oTFYHT01xAts%3D;RC0402FR-0710KL 
-33;R7;R_0402_1005Metric;1;470k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402FR-7D470KL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHD9zTpJLX707E%3D;RC0402FR-7D470KL 
-34;R12;R_0402_1005Metric;1;6.04k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/RT0402FRE076K04L?qs=sGAEpiMZZMtlubZbdhIBIFrRfcQHbHIXpn8yvaZQjnI%3D;RT0402FRE076K04L 
-35;R13;R_0603_1608Metric;1;100k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/RC0603FR-10100KL?qs=sGAEpiMZZMtlubZbdhIBIHvQf5egq9lvZTZjsMHVYq8%3D;RC0603FR-10100KL 
-36;R14;R_0603_1608Metric;1;137k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/AC0603FR-07137KL?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5ANK9wANVhqr0%3D;AC0603FR-07137KL 
-37;R15;R_0402_1005Metric;1;100 Ohm;0,08;https://www.mouser.ee/en/ProductDetail/YAGEO/AC0402FR-13100RL?qs=sGAEpiMZZMtlubZbdhIBIE8A1EWi7VIOjnpDVe3xYVo%3D;AC0402FR-13100RL 
-38;R16;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;5.23k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/AC0603FR-075K23L?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5AdIwbnDX9ggQ%3D;AC0603FR-075K23L 
-39;R17;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;30.1k;0,1;https://www.mouser.ee/en/ProductDetail/Walsin/WR06X3012FTL?qs=sGAEpiMZZMtlubZbdhIBIFle1v8UTW4VXb4iJMPTIG0%3D;WR06X3012FTL 
-40;R19, R20;R_0402_1005Metric;2;4.7k;0,07;https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402JR-104K7L?qs=sGAEpiMZZMtlubZbdhIBIEgN9MQql2m6grJRvPfEuxM%3D;RC0402JR-104K7L 
-41;R21;R_0603_1608Metric;1;10.2k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/RT0603FRE0710K2L?qs=sGAEpiMZZMtlubZbdhIBIJReYkUuHWyofz%252B7jBoCwdA%3D;RT0603FRE0710K2L 
-42;R22;R_0402_1005Metric;1;27k;0,09;https://www.mouser.ee/en/ProductDetail/Walsin/WR04X2702FTL?qs=sGAEpiMZZMtlubZbdhIBIFle1v8UTW4V1ilyZzq3qow%3D;WR04X2702FTL 
-43;;;;;;;
-44;R24;R_0603_1608Metric;1;47 Ohm;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/RT0603FRE0747RL?qs=sGAEpiMZZMtlubZbdhIBIE441mth93wmF5%2FFTsaljNY%3D;RT0603FRE0747RL 
-45;R25;R_0402_1005Metric;1;1k;0,09;https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402FR-101KL?qs=sGAEpiMZZMtlubZbdhIBIEgN9MQql2m64Fjg3SptX%252Bo%3D;RC0402FR-101KL 
-46;;;;;;;
-47;R27;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;665k;0,09;https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT665K?qs=sGAEpiMZZMtlubZbdhIBINCMG6R%252BNjJEe%2FOYjN61c2k%3D;RMCF0603FT665K 
-48;R28;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;130k;0,09;https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT130K?qs=sGAEpiMZZMtlubZbdhIBIA%252B43obPAL0tC4b4O6ZlZZA%3D;RMCF0603FT130K 
-49;R29;R_0402_1005Metric_Pad0.72x0.64mm_HandSolder;1;37.4k;0,08;https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402FR-0737K4L?qs=sGAEpiMZZMtlubZbdhIBIAZsRwDTkDfavKWWtt3z1AM%3D;RC0402FR-0737K4L 
-50;R30;R_0603_1608Metric;1;51.1;0,07;https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT51R1?qs=sGAEpiMZZMtlubZbdhIBIFtUjlT065uif%252B2jeLRkZWU%3D;RMCF0603FT51R1 
-51;R31;R_0603_1608Metric;1;1.96k;0,09;https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT1K96?qs=sGAEpiMZZMtlubZbdhIBIFtUjlT065uiDL8TCQtYGOQ%3D;RMCF0603FT1K96 
-52;R33;R_0603_1608Metric;1;10 Ohm;0,08;https://www.mouser.ee/en/ProductDetail/Walsin/WR06X100-JTL?qs=sGAEpiMZZMtlubZbdhIBIO6gLQ25xNI8D0%252BqC6ceCKo%3D;WR06X100 JTL 
-53;SW1, SW2;SW_SPST_B3U-1000P;2;SW_Push;1,87;https://www.mouser.ee/en/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D;B3U-1000P 
-54;TH1;ntc;1;NTC 10K;0,58;https://www.mouser.ee/en/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D;103AT-2 
-55;TP1;TestPoint_Pad_D1.0mm;1;;;;
-56;TP2;TestPoint_Pad_D1.0mm;1;;;;
-57;TP3;TestPoint_Pad_D1.0mm;1;;;;
-58;TP4;TestPoint_Pad_D1.0mm;1;;;;
-59;TP5;TestPoint_Pad_D1.0mm;1;;;;
-60;U1;QFN40P400X400X100-29N;1;BQ25792RQMR;6,33;https://www.mouser.ee/en/ProductDetail/Texas-Instruments/BQ25792RQMR?qs=81r%252BiQLm7BSrfMJlEm4Auw%3D%3D;BQ25792RQMR 
-61;U2;TQFP-32_7x7mm_P0.8mm;1;ATmega328P-A;2,29;https://www.mouser.ee/en/ProductDetail/Microchip-Technology/ATMEGA328P-AU?qs=K8BHR703ZXiCmmgp6%2FGNmQ%3D%3D;ATMEGA328P-AU 
-62;U3;SSD1306-0.91-OLED-4pin-128x32;1;OLED 0.91 inch;2,64;https://www.aliexpress.com/item/1005008640108394.html;
-63;U4;WQFN38_REF_TEX;1;TPS25751DREFR;2,57;https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPS25751DREFR?qs=2wMNvWM5ZX4m402FYdvDNA%3D%3D;TPS25751DREFR 
-64;U5;WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm;1;TVS2200DRV;0,93;https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TVS2200DRVR?qs=W0yvOO0ixfHPbvei2cYdIw%3D%3D;TVS2200DRVR 
-65;U6;CONV_TPS54531DDAR;1;TPS54531DDAR;1,95;https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPS54531DDAR?qs=jA5Ki6243onykODzUePbag%3D%3D;TPS54531DDAR 
-66;U7;SOT-23-5;1;TLV75533PDBV;0,38;https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TLV75533PDBVR?qs=55YtniHzbhAKEwqeO2xJXQ%3D%3D;TLV75533PDBVR 
-67;U8;SOIC-8_3.9x4.9mm_P1.27mm;1;CAT24C256;0,63;https://www.mouser.ee/en/ProductDetail/onsemi/CAT24C256WI-GT3?qs=rZgeL6XvLwaEqwp5Dppodg%3D%3D;CAT24C256WI-GT3 
-68;U9;VQFN10_RPW_TEX;1;TPS259461ARPW;1,27;https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPS259461ARPWR?qs=Wj%2FVkw3K%252BMCqhfGg0sy75g%3D%3D;TPS259461ARPWR 
-;;;;Total (EUR);35,07;;
-;;;;Total (USD);40,69;;
+Id,Designator,Footprint,Quantity,Designation,Price (total) (EUR),Link,Part number
+1,"C1, C13, C14, C16, C21, C23, C25, C33, C41, C46, C48, C40",C_0402_1005Metric,12,0.1uf,"0,18",https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM155R62A104ME14D?qs=IPQhFcwEUOgMaa1bf1Gh1w%3D%3D,GRM155R62A104ME14D 
+2,C2,C_0402_1005Metric,1,1nf,"0,1",https://www.mouser.ee/en/ProductDetail/Walsin/0402B102M500CT?qs=ZrPdAQfJ6DMOvVoHhNQARQ%3D%3D,0402B102M500CT
+3,"C3, C4",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,2,330pf,"0,16",https://www.mouser.ee/en/ProductDetail/Samsung-Electro-Mechanics/CL05C331JB5NNNC?qs=sGAEpiMZZMsh%252B1woXyUXjxqcB7t9naYpkQ4Rr8BTsps%3D,CL05C331JB5NNNC 
+4,"C5, C8, C27, C43",C_0402_1005Metric,4,10nf,"0,14",https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRT155R71E103KE01J?qs=sGAEpiMZZMsh%252B1woXyUXj1odAWdFQpiLMYy5fGdvsO4%3D,GRT155R71E103KE01J 
+5,"C6, C20",C_0402_1005Metric,2,4.7uf,"0,4",https://www.mouser.ee/en/ProductDetail/KYOCERA-AVX/KGM05CR51C475MH?qs=Jm2GQyTW%2Fbi2to8BOB9y6A%3D%3D,KGM05CR51C475MH 
+6,C9,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,2.2nf,"0,1",https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM155R71H222KA01D?qs=sT7emLDNC7VMoN5Pn9EW7g%3D%3D,GRM155R71H222KA01D 
+7,"C10, C35",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2,10uf,"0,21",https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM188R61A106ME69D?qs=sGAEpiMZZMsh%252B1woXyUXj3PHQNQk05LLWAGWbscZ9EM%3D,GRM188R61A106ME69D 
+8,"C11, C12, C42",C_0805_2012Metric,3,10uf,"1,21",https://www.mouser.ee/en/ProductDetail/TDK/C2012X5R1V106K085AC?qs=6JAMGB%252BEdky%252BlYMcTLhFyA%3D%3D,C2012X5R1V106K085AC 
+9,"C15, C17, C18, C19, C22, C24, C26, C29, C30, C37, C36",C_0603_1608Metric,11,10uf,"0,97",https://www.mouser.ee/en/ProductDetail/KYOCERA-AVX/0603YD106KAT2A?qs=sGAEpiMZZMsh%252B1woXyUXjzY5digEXfcQWG7dCtg%2FVQs%3D,0603YD106KAT2A 
+10,"C31, C32",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,2,0.047uf,"0,14",https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM155R71H473ME14J?qs=d0WKAl%252BL4KZj2STEhmVxVg%3D%3D,GRM155R71H473ME14J 
+11,,,,,,,
+12,"C38, C39",C_0805_2012Metric,2,22uf,"1,1",https://www.mouser.ee/en/ProductDetail/TAIYO-YUDEN/MSAST21GBB5226MTNC12?qs=tlsG%2FOw5FFifOAmFpx5Mxw%3D%3D,MSAST21GBB5226MTNC12
+13,C40,,,,,,
+14,C44,C_0402_1005Metric,1,1100pf,"0,13",https://www.mouser.ee/en/ProductDetail/KEMET/C0402C112J4HACAUTO?qs=j%252B1pi9TdxUbzRsbRCfs5CQ%3D%3D,C0402C112J4HACAUTO
+15,C45,C_0603_1608Metric,1,4.7uf,"0,27",https://www.mouser.ee/en/ProductDetail/Murata-Electronics/GRM188R6YA475ME15D?qs=eeBpzGFlv%252B8dp6uI9Q0%2FMQ%3D%3D,GRM188R6YA475ME15D
+16,C47,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,1,22pf,"0,11",https://www.mouser.ee/en/ProductDetail/Walsin/0402N220K500CT?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyVAOtE%252BTtGqKE%3D,0402N220K500CT
+17,C49,CP_Radial_D5.0mm_P2.50mm,1,100uf,,,
+18,"C50, C51",C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,2,47uf,"1,15",https://www.mouser.ee/en/ProductDetail/Samsung-Electro-Mechanics/CL32A476MOJNNNE?qs=sGAEpiMZZMsh%252B1woXyUXj3ImGdBpR7cBWQ3FoDeyW%2Fk%3D,CL32A476MOJNNNE
+19,D1,D_SOD-323_HandSoldering,1,,"0,23",https://www.mouser.ee/en/ProductDetail/Taiwan-Semiconductor/BAT42WSH-RRG?qs=jcD%2FCkGBYeNbLXauDmsPEg%3D%3D,BAT42WSH RRG 
+20,D2,D_SMC,1,,"0,95",https://www.mouser.ee/en/ProductDetail/Comchip-Technology/CDBC540-G?qs=tw%252BuQ%2FB6PO2ExpPYY64Vzw%3D%3D,CDBC540-G 
+21,D3,LED_0603_1608Metric,1,LED blue,"0,15",https://www.mouser.ee/en/ProductDetail/Wurth-Elektronik/150060BS75000?qs=sGAEpiMZZMvVL5Kk7ZYykXREfLAAjjkQe66GuagBP8yFlWzxEZ2GLA%3D%3D,150060BS75000 
+22,J1,USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal,1,USB_C_Receptacle_PowerOnly_6P,"0,53",https://www.mouser.ee/ProductDetail/GCT/USB4125-GF-A?qs=KUoIvG%2F9IlaIQ4zBJ6gLeA%3D%3D,USB4125-GF-A 
+23,J2,JST_VH_S4P-VH_1x04_P3.96mm_Horizontal,1,JST VH S4P,"0,26",https://www.mouser.ee/en/ProductDetail/JST-Commercial/S4P-VHLFSN?qs=QpmGXVUTftGoUBD%252BPjD3%2FQ%3D%3D,S4P-VH(LF)(SN) 
+24,"J3, J4",JST_ZH_B3B-ZR_1x03_P1.50mm_Vertical,2,JST ZH B3B,"0,41",https://www.mouser.ee/en/ProductDetail/JST-Commercial/B3B-ZR-3.4LFSN?qs=cdbOS8ANM9A4HB4OVixO0g%3D%3D,B3B-ZR-3.4(LF)(SN) 
+25,,,,,,,
+26,J6,JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical,1,JST ZH B6B,"0,28",https://www.mouser.ee/en/ProductDetail/JST-Commercial/B6B-ZR-3.4LFSN?qs=QpmGXVUTftFTUFNLJp%252BAEQ%3D%3D,B6B-ZR-3.4(LF)(SN) 
+27,L1,L_Bourns_SRP1038C_10.0x10.0mm,1,4.7uh,"0,74",https://www.mouser.ee/en/ProductDetail/Bourns/SRP1038CC-4R7M?qs=1Kr7Jg1SGW%252BCPc6wLQ2Y6w%3D%3D,SRP1038CC-4R7M 
+28,L3,7443845030010,1,1uH,"1,89",https://www.mouser.ee/en/ProductDetail/Wurth-Elektronik/7443845030010?qs=a2MtRaTmNOQ4VejTFaA8vA%3D%3D,7443845030010
+29,"R1, R2, R26",R_0603_1608Metric,3,4.7k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/AC0603JR-074K7L?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5AqFOkmoxORGA%3D,AC0603JR-074K7L 
+30,"R3, R18, R4, R8, R9, R32",R_0603_1608Metric,6,10k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/RT0603FRE1310KL?qs=sGAEpiMZZMtlubZbdhIBIE441mth93wmotyGspRJebc%3D,RT0603FRE1310KL 
+31,,,,,,,
+32,"R5, R6, R10, R11, R23",R_0402_1005Metric,5,10k,"0,08",https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402FR-0710KL?qs=sGAEpiMZZMtlubZbdhIBIPp9I5DmXL4oTFYHT01xAts%3D,RC0402FR-0710KL 
+33,R7,R_0402_1005Metric,1,470k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402FR-7D470KL?qs=sGAEpiMZZMtlubZbdhIBIAA5Rg%252BBqQHD9zTpJLX707E%3D,RC0402FR-7D470KL 
+34,R12,R_0402_1005Metric,1,6.04k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/RT0402FRE076K04L?qs=sGAEpiMZZMtlubZbdhIBIFrRfcQHbHIXpn8yvaZQjnI%3D,RT0402FRE076K04L 
+35,R13,R_0603_1608Metric,1,100k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/RC0603FR-10100KL?qs=sGAEpiMZZMtlubZbdhIBIHvQf5egq9lvZTZjsMHVYq8%3D,RC0603FR-10100KL 
+36,R14,R_0603_1608Metric,1,137k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/AC0603FR-07137KL?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5ANK9wANVhqr0%3D,AC0603FR-07137KL 
+37,R15,R_0402_1005Metric,1,100 Ohm,"0,08",https://www.mouser.ee/en/ProductDetail/YAGEO/AC0402FR-13100RL?qs=sGAEpiMZZMtlubZbdhIBIE8A1EWi7VIOjnpDVe3xYVo%3D,AC0402FR-13100RL 
+38,R16,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,5.23k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/AC0603FR-075K23L?qs=sGAEpiMZZMtlubZbdhIBIG07xJe44c5AdIwbnDX9ggQ%3D,AC0603FR-075K23L 
+39,R17,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,30.1k,"0,1",https://www.mouser.ee/en/ProductDetail/Walsin/WR06X3012FTL?qs=sGAEpiMZZMtlubZbdhIBIFle1v8UTW4VXb4iJMPTIG0%3D,WR06X3012FTL 
+40,"R19, R20",R_0402_1005Metric,2,4.7k,"0,07",https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402JR-104K7L?qs=sGAEpiMZZMtlubZbdhIBIEgN9MQql2m6grJRvPfEuxM%3D,RC0402JR-104K7L 
+41,R21,R_0603_1608Metric,1,10.2k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/RT0603FRE0710K2L?qs=sGAEpiMZZMtlubZbdhIBIJReYkUuHWyofz%252B7jBoCwdA%3D,RT0603FRE0710K2L 
+42,R22,R_0402_1005Metric,1,27k,"0,09",https://www.mouser.ee/en/ProductDetail/Walsin/WR04X2702FTL?qs=sGAEpiMZZMtlubZbdhIBIFle1v8UTW4V1ilyZzq3qow%3D,WR04X2702FTL 
+43,,,,,,,
+44,R24,R_0603_1608Metric,1,47 Ohm,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/RT0603FRE0747RL?qs=sGAEpiMZZMtlubZbdhIBIE441mth93wmF5%2FFTsaljNY%3D,RT0603FRE0747RL 
+45,R25,R_0402_1005Metric,1,1k,"0,09",https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402FR-101KL?qs=sGAEpiMZZMtlubZbdhIBIEgN9MQql2m64Fjg3SptX%252Bo%3D,RC0402FR-101KL 
+46,,,,,,,
+47,R27,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,665k,"0,09",https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT665K?qs=sGAEpiMZZMtlubZbdhIBINCMG6R%252BNjJEe%2FOYjN61c2k%3D,RMCF0603FT665K 
+48,R28,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,130k,"0,09",https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT130K?qs=sGAEpiMZZMtlubZbdhIBIA%252B43obPAL0tC4b4O6ZlZZA%3D,RMCF0603FT130K 
+49,R29,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,1,37.4k,"0,08",https://www.mouser.ee/en/ProductDetail/YAGEO/RC0402FR-0737K4L?qs=sGAEpiMZZMtlubZbdhIBIAZsRwDTkDfavKWWtt3z1AM%3D,RC0402FR-0737K4L 
+50,R30,R_0603_1608Metric,1,51.1,"0,07",https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT51R1?qs=sGAEpiMZZMtlubZbdhIBIFtUjlT065uif%252B2jeLRkZWU%3D,RMCF0603FT51R1 
+51,R31,R_0603_1608Metric,1,1.96k,"0,09",https://www.mouser.ee/en/ProductDetail/SEI-Stackpole/RMCF0603FT1K96?qs=sGAEpiMZZMtlubZbdhIBIFtUjlT065uiDL8TCQtYGOQ%3D,RMCF0603FT1K96 
+52,R33,R_0603_1608Metric,1,10 Ohm,"0,08",https://www.mouser.ee/en/ProductDetail/Walsin/WR06X100-JTL?qs=sGAEpiMZZMtlubZbdhIBIO6gLQ25xNI8D0%252BqC6ceCKo%3D,WR06X100 JTL 
+53,"SW1, SW2",SW_SPST_B3U-1000P,2,SW_Push,"1,87",https://www.mouser.ee/en/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D,B3U-1000P 
+54,TH1,ntc,1,NTC 10K,"0,58",https://www.mouser.ee/en/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D,103AT-2 
+55,TP1,TestPoint_Pad_D1.0mm,1,,,,
+56,TP2,TestPoint_Pad_D1.0mm,1,,,,
+57,TP3,TestPoint_Pad_D1.0mm,1,,,,
+58,TP4,TestPoint_Pad_D1.0mm,1,,,,
+59,TP5,TestPoint_Pad_D1.0mm,1,,,,
+60,U1,QFN40P400X400X100-29N,1,BQ25792RQMR,"6,33",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/BQ25792RQMR?qs=81r%252BiQLm7BSrfMJlEm4Auw%3D%3D,BQ25792RQMR 
+61,U2,TQFP-32_7x7mm_P0.8mm,1,ATmega328P-A,"2,29",https://www.mouser.ee/en/ProductDetail/Microchip-Technology/ATMEGA328P-AU?qs=K8BHR703ZXiCmmgp6%2FGNmQ%3D%3D,ATMEGA328P-AU 
+62,U3,SSD1306-0.91-OLED-4pin-128x32,1,OLED 0.91 inch,"2,64",https://www.aliexpress.com/item/1005008640108394.html,
+63,U4,WQFN38_REF_TEX,1,TPS25751DREFR,"2,57",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPS25751DREFR?qs=2wMNvWM5ZX4m402FYdvDNA%3D%3D,TPS25751DREFR 
+64,U5,WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,1,TVS2200DRV,"0,93",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TVS2200DRVR?qs=W0yvOO0ixfHPbvei2cYdIw%3D%3D,TVS2200DRVR 
+65,U6,CONV_TPS54531DDAR,1,TPS54531DDAR,"1,95",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPS54531DDAR?qs=jA5Ki6243onykODzUePbag%3D%3D,TPS54531DDAR 
+66,U7,SOT-23-5,1,TLV75533PDBV,"0,38",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TLV75533PDBVR?qs=55YtniHzbhAKEwqeO2xJXQ%3D%3D,TLV75533PDBVR 
+67,U8,SOIC-8_3.9x4.9mm_P1.27mm,1,CAT24C256,"0,63",https://www.mouser.ee/en/ProductDetail/onsemi/CAT24C256WI-GT3?qs=rZgeL6XvLwaEqwp5Dppodg%3D%3D,CAT24C256WI-GT3 
+68,U9,VQFN10_RPW_TEX,1,TPS259461ARPW,"1,27",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPS259461ARPWR?qs=Wj%2FVkw3K%252BMCqhfGg0sy75g%3D%3D,TPS259461ARPWR 
+,,,,Total (EUR),"35,07",,
+,,,,Total (USD),"40,69",,
