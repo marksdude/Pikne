@@ -1,13 +1,16 @@
 # Pikne
 A modular and repairable power bank
-# Features
+  
+![Example.jpg](https://github.com/marksdude/Pikne/blob/main/Images/Example.jpg)
+# Features:
 - USB PD output up to 60W
 - 0.91 inch OLED for status monitoring
 - Attachable modules
 - Repairable design
-- Up to 86WH capacity
+- 80WH capacity
 - Based on the BQ25792 and TPS25751
-# Modules
+- One USB-C output
+# Modules:
 - LED controller - Allows you to control LEDs with Home Assistant.  
   - Features:
     - Up to 2.5A output
