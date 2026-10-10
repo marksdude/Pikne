@@ -5,17 +5,17 @@ Main PCB,1,5,pcs,"7,1","6,1",https://jlcpcb.com/,"OSP Surface Finish, 4 layer, 6
 Main PCB components,1,1,set,"39,81","34,49",,"More info in the main PCB BOM, located in the main PCB folder"
 BMS PCB,1,5,pcs,"7,1","6,1",https://jlcpcb.com/,"OSP Surface Finish, 4 layer, 50.85x18mm"
 BMS components,1,1,set,"18,01","15,52",,"More info in the BMS BOM, located in the BMS folder"
-Battery,4,4,pcs,"16,01","13,8",https://www.nkon.nl/en/samsung-inr21700-58e-5330mah-10-7a.html,4 cells for 2S2P pack
+Battery,4,1,pcs,"16,01","13,8",https://www.nkon.nl/en/samsung-inr21700-58e-5330mah-10-7a.html,4 cells for 2S2P pack
 isolation paper for the battery,4,80,pcs,"2,26","1,95",https://www.nkon.nl/en/1x-20700-21700isolatiepapier-groen.html,
 Nickel strip for the battery,"0,4",1,m,"3,77","3,25",https://www.nkon.nl/en/1-meter-nikkel-batterijsoldeerstrip-10mm-0-10mm.html,
 Pogo connector PCB,1,5,pcs,"4,2","3,61",https://jlcpcb.com/,"OSP Surface Finish, 2 layer, 39x10mm, black solder mask, 0.8mm thickness"
 Pogo connectors,1,5,pcs,"10,4","8,97",https://www.amazon.de/-/en/Liseng-Magnetic-Connector-Position-Through/dp/B0B1771YT4,"Amazon seemed cheaper than Aliexpress, also used in the modules"
-ESD diode,2,2,pcs,"1,86","1,6",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPD2E2U06DCKRG4?qs=7%2F6SraaimPTS3zhvanrNFw%3D%3D,"For the pogo connector, also used in the modules"
-JST connector,2,2,pcs,"1,1","0,95",https://www.mouser.ee/en/ProductDetail/JST-Commercial/S3B-ZR-SM4A-TFLFSN?qs=QpmGXVUTftHs30qFaTPFrg%3D%3D,"JST ZR S3B SM4A for the pogo connector, also used in the modules"
+ESD diode,2,1,pcs,"1,86","1,6",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPD2E2U06DCKRG4?qs=7%2F6SraaimPTS3zhvanrNFw%3D%3D,"For the pogo connector, also used in the modules"
+JST connector,2,1,pcs,"1,1","0,95",https://www.mouser.ee/en/ProductDetail/JST-Commercial/S3B-ZR-SM4A-TFLFSN?qs=QpmGXVUTftHs30qFaTPFrg%3D%3D,"JST ZR S3B SM4A for the pogo connector, also used in the modules"
 Button PCB,1,5,pcs,"4,2","3,62",https://jlcpcb.com/,"OSP Surface Finish, 2 layer, 29.9x8mm, black solder mask, 0.8mm thickness"
 Button,1,1,pcs,"1,13","0,97",https://www.mouser.ee/en/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D,
 JST connector,1,1,pcs,"0,53","0,46",https://www.mouser.ee/en/ProductDetail/JST-Commercial/S2B-ZR-SM4A-TFLFSN?qs=QpmGXVUTftFg0hrqdkvc8w%3D%3D,JST ZR S2B SM4A for the button
-NTC,4,4,pcs,"2,69","2,33",https://www.mouser.ee/en/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D,For sensing battery temperature
+NTC,4,1,pcs,"2,69","2,33",https://www.mouser.ee/en/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D,For sensing battery temperature
 ,,,,,,,
 ,,,Total,"120,17","103,72",,
 ,,,,,,,
