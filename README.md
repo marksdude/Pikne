@@ -32,8 +32,17 @@ Picture of rev 1.0 nonworking build
 # How does it work?
 Core functionality comes from the [TPS25751](https://www.ti.com/product/TPS25751) and [BQ25792](https://download.mikroe.com/documents/datasheets/BQ25792_datasheet.pdf) combination. TPS25751 has integrated I2C control for TI battery chargers, including the BQ25792, which simplified firmware development. The TPS25751 handles USB-C PD negotiations and manages the BQ25792. The BQ25792 charges the battery and generates higher voltages for the USB-C output. So for example, if you connect a device you want to charge, first your device negotiates its needed voltage and current with the TPS25751. Then, the TPS25751 asks the BQ25792 to generate the requested voltage (only if the requested voltage is above 5V, for 5V there is a separate regulator) once the BQ25792 is outputting the right voltage, the TPS25751 starts sourcing (outputting) and your device starts charging.  
 An ATmega328P acts as the main controller. It monitors everything, handles faults, displays battery information and communicates with the modules.
-
+<p float="left">
+  <img src="/Images/Schematic.png" width="483" />
+  <img src="/Images/Main PCB.png" width="500" /> 
+</p>
 The BMS is based on the BQ41Z50, a 2-4S battery manager IC. It has all the necessary protections needed for a lithium-ion battery pack and monitors its SoC (State of Charge). The ATmega328P requests battery information from the BMS over SMBus.
+
+<p float="left">
+  <img src="/Images/BMS schematic.png" width="500" />
+  <img src="/Images/BMS.png" width="500" /> 
+</p>
+
 
 Modules can communicate with the power bank over UART through the pogo pins above the USB-C port. A connected module is idendified with an ID number sent by the module (1 for LED controller, 2 for Flashlight). The module can then request battery information or use the button on the power bank for additional control.
 # Why did I make this?
