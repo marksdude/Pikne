@@ -33,17 +33,25 @@ Picture of rev 1.0 nonworking build
 Core functionality comes from the [TPS25751](https://www.ti.com/product/TPS25751) and [BQ25792](https://download.mikroe.com/documents/datasheets/BQ25792_datasheet.pdf) combination. TPS25751 has integrated I2C control for TI battery chargers, including the BQ25792, which simplified firmware development. The TPS25751 handles USB-C PD negotiations and manages the BQ25792. The BQ25792 charges the battery and generates higher voltages for the USB-C output. So for example, if you connect a device you want to charge, first your device negotiates its needed voltage and current with the TPS25751. Then, the TPS25751 asks the BQ25792 to generate the requested voltage (only if the requested voltage is above 5V, for 5V there is a separate regulator) once the BQ25792 is outputting the right voltage, the TPS25751 starts sourcing (outputting) and your device starts charging.  
 An ATmega328P acts as the main controller. It monitors everything, handles faults, displays battery information and communicates with the modules.
 <p float="left">
-  <img src="/Images/Schematic.png" width="483" />
-  <img src="/Images/Main PCB.png" width="500" /> 
+  <img src="/Images/Schematic.png" width="400" />
+  <img src="/Images/Main PCB.png" width="400" /> 
 </p>
 The BMS is based on the BQ41Z50, a 2-4S battery manager IC. It has all the necessary protections needed for a lithium-ion battery pack and monitors its SoC (State of Charge). The ATmega328P requests battery information from the BMS over SMBus.
 
 <p float="left">
-  <img src="/Images/BMS schematic.png" width="500" />
-  <img src="/Images/BMS.png" width="500" /> 
+  <img src="/Images/BMS schematic.png" width="400" />
+  <img src="/Images/BMS.png" width="400" /> 
 </p>
 
 
 Modules can communicate with the power bank over UART through the pogo pins above the USB-C port. A connected module is idendified with an ID number sent by the module (1 for LED controller, 2 for Flashlight). The module can then request battery information or use the button on the power bank for additional control.
+### LED controller
+The LED controller is based on an ESP32-C3-WROOM-02U that is running ESPHome. There are 3 external MOSFETs that are used for the two monochrome outputs and one RGB output. An RGB output needs three MOSFETs, one for each color channel. Since there are only three, the monochrome outputs have to be connected together with two of the RGB channels. This is why the monochrome and RGB outputs can't be used simultaneously. INA219s are used for monitoring power draw of each output.
+<p float="left">
+  <img src="/Images/Led controller schematic.png" width="400" />
+  <img src="/Images/Led controller.png" width="400" /> 
+</p>
+
+
 # Why did I make this?
 It all started because I was tired of changing the AA batteries in my mom's battery-powered lights. I wanted to make the process faster and less wasteful, so I thought it would be a good idea to design an easily removable, rechargeable battery pack for the lights and also integrate them with Home Assistant. The original idea was going to have 2 parts the battery pack and a controller board. They were supposed to be held together with magnets, connected with pogo pins and communicate over UART. Then I thought, why not turn the battery pack into a power bank so it could be used for things other than the lights? That's what I did. The idea of making the battery pack easily removable led me to make the power bank modular. That's how Pikne was born.
