@@ -64,7 +64,7 @@ On the BMS two connectors go to the main PCB and two to the battery pack.
 
 ![BMS connectors.png](https://github.com/marksdude/Pikne/blob/main/Images/BMS%20connectors.png)
 
-The battery is connected in a 2S2P configuration. There are cutouts in the bottom of the battery holder for routing the wires and for the thermistors. BAT+ and BAT- connect to the BMS input, thermistors and the balance lead connect to the BMS battery-sense connector.
+The battery is connected in a 2S2P configuration. There are cutouts in the bottom of the battery holder for routing the wires and for the thermistors. BAT+ and BAT- connect to the BMS input, thermistors and the balance lead connect to the BMS battery sense connector.
 
 <p float="left">
   <img src="/Images/battery top.png" width="400" />
