@@ -1,0 +1,167 @@
+esphome:
+  name: led-controller
+  friendly_name: LED controller
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: esp-idf
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key:  # add a key here
+
+ota:
+  - platform: esphome
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  ap:
+    ssid: "Led-Controller"
+    password:  # add a password here
+
+captive_portal:
+
+output:
+- platform: ledc
+  id: output_ledc_1
+  pin: GPIO4
+- platform: ledc
+  id: output_ledc_2
+  pin: GPIO5
+- platform: ledc
+  id: output_ledc_3
+  pin: GPIO7
+
+light:
+  - platform: esp32_rmt_led_strip
+    channel_colors: GRB
+    pin: GPIO3
+    num_leds: 50
+    chipset: ws2812
+    name: "Addressable LED"
+    effects: 
+      - addressable_flicker:
+      - addressable_fireworks:
+      - addressable_random_twinkle:
+      - addressable_twinkle: 
+      - addressable_scan:
+      - addressable_color_wipe:
+      - addressable_rainbow:
+      - flicker:
+
+# Choose either monochrome or RGB
+  - platform: rgb
+    name: RGB Light
+    id: light_rgb_1
+    blue: output_ledc_1
+    green: output_ledc_2
+    red: output_ledc_3
+    
+  - platform: monochromatic
+    name: Monochromatic Light 1
+    id: light_monochromatic_1
+    output: output_ledc_1
+  - platform: monochromatic
+    name: Monochromatic Light 2
+    id: light_monochromatic_2
+    output: output_ledc_2
+
+
+
+
+event:
+  - platform: uart
+    id: Ready
+    event_types:
+      - "Ready" : [0x00]
+    on_event:
+      then:
+        - uart.write: [0x01]
+
+uart:
+  baud_rate: 115200
+  rx_pin: GPIO20
+  tx_pin: GPIO21
+  debug:
+    direction: RX
+    dummy_receiver: true
+    after:
+      delimiter: \n
+    sequence:
+      - lambda: |-
+          std::string data = "";
+          float bat;
+          float current;
+          float usb_current;
+          float voltage;
+          for(uint8_t byte : bytes){
+            data += byte;
+          }
+          size_t bat_algus = data.find("Bat:");
+          if(bat_algus != std::string::npos){
+            bat_algus += 4;
+            size_t bat_lopp = data.find("|", bat_algus);
+            bat = stof(data.substr(bat_algus, bat_lopp - bat_algus));
+          }
+          size_t current_algus = data.find("Current:");
+          if(current_algus != std::string::npos){
+            current_algus += 8;
+            size_t current_lopp = data.find("|", current_algus);
+            current = stof(data.substr(current_algus, current_lopp - current_algus));
+          }
+          size_t voltage_algus = data.find("Voltage:");
+          if(voltage_algus != std::string::npos){
+            voltage_algus += 8;
+            size_t voltage_lopp = data.find("|", voltage_algus);
+            voltage = stof(data.substr(voltage_algus, voltage_lopp - voltage_algus));
+          }
+          size_t usb_current_algus = data.find("USB_current:");
+          if(usb_current_algus != std::string::npos){
+            usb_current_algus += 12;
+            size_t usb_current_lopp = data.find("|", usb_current_algus);
+            usb_current = stof(data.substr(usb_current_algus, usb_current_lopp - usb_current_algus));
+          }
+          id(bat_charge).publish_state(bat);
+          id(bat_current).publish_state(current);
+          id(bat_voltage).publish_state(voltage);
+          id(USB_current).publish_state(usb_current);
+          
+          
+      
+
+
+
+
+
+sensor:
+  - platform: template
+    name: Battery
+    id: bat_charge
+    device_class: battery
+    unit_of_measurement: "%"
+  - platform: template
+    name: battery current
+    id: bat_current
+    device_class: current
+    unit_of_measurement: A
+    accuracy_decimals: 1
+  - platform: template
+    name: Battery voltage
+    id: bat_voltage
+    device_class: voltage
+    unit_of_measurement: V
+    accuracy_decimals: 1
+  - platform: template
+    name: USB current
+    id: USB_current
+    accuracy_decimals: 1
+    device_class: current
+    unit_of_measurement: A
+  
