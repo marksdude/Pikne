@@ -60,7 +60,7 @@ The main PCB has 4 connectors. One goes to the pogo connector, two to the BMS an
 
 ![Main PCb connectors.png](https://github.com/marksdude/Pikne/blob/main/Images/Main%20PCB%20connectors.png)
 
-On the BMS two connectors go to the main PCB and 2 to the battery pack.  
+On the BMS two connectors go to the main PCB and two to the battery pack.  
 
 ![BMS connectors.png](https://github.com/marksdude/Pikne/blob/main/Images/BMS%20connectors.png)
 
