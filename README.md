@@ -21,6 +21,8 @@ Picture of rev 1.0 nonworking build
     - 2 monochrome outputs, 1 RGB output and 1 addressable LED output 
       - **Note:** RGB and the monochrome outputs can't be used simultaneously.
     - ESP32-C3 based
+
+![LED controller.png](https://github.com/marksdude/Pikne/blob/main/Images/LED%20controller.png)
 - Flashlight
   - Features:
     - 6600lm max brightness
@@ -75,6 +77,19 @@ The button has to be soldered to the main PCB. The pogo connector is connected t
   <img src="/Images/Button wiring.png" width="500" />
   <img src="/Images/Pogo.png" width="300" /> 
 </p>
+
+### LED controller
+Not much wiring to do here just connect the pogo connector to the PCB.
+
+<p float="left">
+  <img src="/Images/LED controller connectors.png" width="450" />
+  <img src="/Images/LED controller pogo.png" width="350" /> 
+</p>
+
+# Firmware
+Firmware is currently very limited. Version 0.1 has a basic menu to check some battery information, that's about it. It relies on the [ArduinoSMBus](https://github.com/osh-labs/ArduinoSMBus) library for communicating with the BMS and the [Adafruit_SSD1306](https://github.com/adafruit/adafruit_ssd1306) and [Adafruit GFX Library](https://github.com/adafruit/adafruit-gfx-library) libraries for drawing on the OLED. I plan to move away from these libraries in the future.  
+  
+There is still a lot left to be implemented.
 
 # Why did I make this?
 It all started because I was tired of changing the AA batteries in my mom's battery-powered lights. I wanted to make the process faster and less wasteful, so I thought it would be a good idea to design an easily removable, rechargeable battery pack for the lights and also integrate them with Home Assistant. The original idea was going to have 2 parts the battery pack and a controller board. They were supposed to be held together with magnets, connected with pogo pins and communicate over UART. Then I thought, why not turn the battery pack into a power bank so it could be used for things other than the lights? That's what I did. The idea of making the battery pack easily removable led me to make the power bank modular. That's how Pikne was born.
