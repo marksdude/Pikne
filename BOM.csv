@@ -9,7 +9,7 @@ Battery,4,1,pcs,"16,01","13,8",https://www.nkon.nl/en/samsung-inr21700-58e-5330m
 isolation paper for the battery,4,80,pcs,"2,26","1,95",https://www.nkon.nl/en/1x-20700-21700isolatiepapier-groen.html,
 Nickel strip for the battery,"0,4",1,m,"3,77","3,25",https://www.nkon.nl/en/1-meter-nikkel-batterijsoldeerstrip-10mm-0-10mm.html,
 Pogo connector PCB,1,5,pcs,"4,2","3,61",https://jlcpcb.com/,"OSP Surface Finish, 2 layer, 39x10mm, black solder mask, 0.8mm thickness"
-Pogo connectors,1,5,pcs,"10,4","8,97",https://www.amazon.de/-/en/Liseng-Magnetic-Connector-Position-Through/dp/B0B1771YT4,"Amazon seemed cheaper than Aliexpress, also used in the modules"
+Pogo connectors,1,5,pcs,"12,87","11,46",https://www.amazon.de/-/en/Liseng-Magnetic-Connector-Position-Through/dp/B0B1771YT4,"Amazon seemed cheaper than Aliexpress, also used in the modules"
 ESD diode,2,1,pcs,"1,86","1,6",https://www.mouser.ee/en/ProductDetail/Texas-Instruments/TPD2E2U06DCKRG4?qs=7%2F6SraaimPTS3zhvanrNFw%3D%3D,"For the pogo connector, also used in the modules"
 JST connector,2,1,pcs,"1,1","0,95",https://www.mouser.ee/en/ProductDetail/JST-Commercial/S3B-ZR-SM4A-TFLFSN?qs=QpmGXVUTftHs30qFaTPFrg%3D%3D,"JST ZR S3B SM4A for the pogo connector, also used in the modules"
 Button PCB,1,5,pcs,"4,2","3,62",https://jlcpcb.com/,"OSP Surface Finish, 2 layer, 29.9x8mm, black solder mask, 0.8mm thickness"
@@ -17,21 +17,22 @@ Button,1,1,pcs,"1,13","0,97",https://www.mouser.ee/en/ProductDetail/Omron-Electr
 JST connector,1,1,pcs,"0,53","0,46",https://www.mouser.ee/en/ProductDetail/JST-Commercial/S2B-ZR-SM4A-TFLFSN?qs=QpmGXVUTftFg0hrqdkvc8w%3D%3D,JST ZR S2B SM4A for the button
 NTC,4,1,pcs,"2,69","2,33",https://www.mouser.ee/en/ProductDetail/Semitec/103AT-2?qs=wgO0AD0o1vvcDzsKguD%252Bew%3D%3D,For sensing battery temperature
 ,,,,,,,
-,,,Total,"120,17","103,72",,
+,,,Total,"122,64","106,21",,
 ,,,,,,,
 LED CONTROLLER MODULE,,,,,,,
 ,,,,,,,
 PCB,1,5,pcs,"4,1","3,53",https://jlcpcb.com/,"OSP Surface Finish, 2 layer, 75x18.35mm, black solder mask, 0.8mm thickness"
 Components,1,1,set,"21,75","18,75",,"More info in the LED controller BOM, located in /Modules/LED controller/PCB/LED controller"
 Pogo connector PCB,1,5,pcs,"4,2","3,61",https://jlcpcb.com/,"OSP Surface Finish, 2 layer, 37.5x10mm, black solder mask, 0.8mm thickness"
+Antenna,1,1,pcs,"2,32","2,07",https://www.mouser.ee/en/ProductDetail/Molex/206994-0100?qs=gTYE2QTfZfQs7qygtWxhjQ%3D%3D,For the ESP32-C3
 ,,,,,,,
-,,,Total,"30,05","25,89",,
+,,,Total,"32,37","27,96",,
 ,,,,,,,
 ALL TOGETHER,,,,,,,
 ,,,,,,,
-Power bank,,,,"120,17","103,72",,
-LED controller module,,,,"30,05","25,89",,
+Power bank,,,,"122,64","106,21",,
+LED controller module,,,,"32,37","27,96",,
 JLCPCB shipping,,,,"23,48","20,86",,
 NKON shipping,,,,"11,95","10,64",,
 ,,,,,,,
-,,,Total,"185,65","161,11",,
+,,,Total,"190,44","165,67",,
