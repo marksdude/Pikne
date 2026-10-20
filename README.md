@@ -32,7 +32,14 @@ Picture of rev 1.0 nonworking build
 # Coming modules
 - LiPo charger - Allows you to charge up to 4S LiPos from your power bank
 # How does it work?
-Core functionality comes from the [TPS25751](https://www.ti.com/product/TPS25751) and [BQ25792](https://download.mikroe.com/documents/datasheets/BQ25792_datasheet.pdf) combination. TPS25751 has integrated I2C control for TI battery chargers, including the BQ25792, which simplified firmware development. The TPS25751 handles USB-C PD negotiations and manages the BQ25792. The BQ25792 charges the battery and generates higher voltages for the USB-C output. So for example, if you connect a device you want to charge, first your device negotiates its needed voltage and current with the TPS25751. Then, the TPS25751 asks the BQ25792 to generate the requested voltage (only if the requested voltage is above 5V, for 5V there is a separate regulator) once the BQ25792 is outputting the right voltage, the TPS25751 starts sourcing (outputting) and your device starts charging.  
+Core functionality comes from the [TPS25751](https://www.ti.com/product/TPS25751) and [BQ25792](https://download.mikroe.com/documents/datasheets/BQ25792_datasheet.pdf) combination.  
+  
+The TPS25751 is a USB-C PD controller IC. It handles PD negotiations, manages the BQ25792 and also has integrated I2C control for the BQ25792, which simplified firmware development.  
+  
+The BQ25792 is a battery charger IC with support for USB-C PD output. It charges the battery and generates higher voltages (9V, 12V, 15V, 20V) for the USB C PD output. For 5V there is a separate regulator.
+  
+For example, if you connect a device you want to charge, first your device negotiates its required voltage and current with the TPS25751. Then the TPS25751 asks the BQ25792 to generate the requested voltage if it is above 5V. Once the correct voltage is available, the TPS25751 enables the output and your device starts charging.
+  
 An ATmega328P acts as the main controller. It monitors everything, handles faults, displays battery information and communicates with the modules.
 <p float="left">
   <img src="/Images/Schematic.png" width="400" />
