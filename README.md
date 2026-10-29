@@ -93,6 +93,10 @@ Not much wiring to do here just connect the pogo connector to the PCB.
   <img src="/Images/LED controller pogo.png" width="350" /> 
 </p>
 
+Output pinout:
+
+![LED controller pinout.png](https://github.com/marksdude/Pikne/blob/main/Images/LED%20controller%20pinout.png)
+
 # Firmware
 Firmware is currently very limited. Version 0.1 has a basic menu to check some battery information, that's about it. It relies on the [ArduinoSMBus](https://github.com/osh-labs/ArduinoSMBus) library for communicating with the BMS and the [Adafruit_SSD1306](https://github.com/adafruit/adafruit_ssd1306) and [Adafruit GFX Library](https://github.com/adafruit/adafruit-gfx-library) libraries for drawing on the OLED. I plan to move away from these libraries in the future.  
   
