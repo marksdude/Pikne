@@ -5,7 +5,7 @@ Main PCB,1,5,pcs,"7,1","6,1",https://jlcpcb.com/,"OSP Surface Finish, 4 layer, 6
 Main PCB components,1,1,set,"39,81","34,49",,"More info in the main PCB BOM, located in the main PCB folder"
 BMS PCB,1,5,pcs,"7,1","6,1",https://jlcpcb.com/,"OSP Surface Finish, 4 layer, 50.85x18mm"
 BMS components,1,1,set,"18,01","15,52",,"More info in the BMS BOM, located in the BMS folder"
-Battery,4,1,pcs,"16,01","13,8",https://www.nkon.nl/en/samsung-inr21700-58e-5330mah-10-7a.html,4 cells for 2S2P pack
+Battery,4,1,pcs,"16,01","13,8",https://www.nkon.nl/en/samsung-inr21700-58e-cc5493f101-5330mah-10-7a.html,4 cells for 2S2P pack
 isolation paper for the battery,4,80,pcs,"2,26","1,95",https://www.nkon.nl/en/1x-20700-21700isolatiepapier-groen.html,
 Nickel strip for the battery,"0,4",1,m,"3,77","3,25",https://www.nkon.nl/en/1-meter-nikkel-batterijsoldeerstrip-10mm-0-10mm.html,
 Pogo connector PCB,1,5,pcs,"4,2","3,61",https://jlcpcb.com/,"OSP Surface Finish, 2 layer, 39x10mm, black solder mask, 0.8mm thickness"
