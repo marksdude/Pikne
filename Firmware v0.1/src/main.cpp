@@ -81,7 +81,7 @@ float usb_current(){
 void loop() {
   button_value = menu_button(BUTTON_PIN);
   menu = menu_control(button_value);
-  if(button_value != last_button_value || menu == 1 || 2 || 3){  
+  if(button_value != last_button_value || menu != 0){  
     if(millis() - menu_draw_delay > 200 || menu != last_menu){
       battery_temp = battery.temperatureC()/10;
       menu_draw(menu_control(button_value), battery.voltage(), battery.relativeStateOfCharge(), battery_temp, battery.current()/1000, 0, usb_current(), bq25792_status(), battery.runtimetoempty());
